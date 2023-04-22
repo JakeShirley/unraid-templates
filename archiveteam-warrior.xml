@@ -7,15 +7,15 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/117372-support-crocs-archiveteam-warrior/</Support>
+  <Support>https://forums.unraid.net/topic/138245-support-archiveteam-warrior-maintained-by-darknavi/</Support>
   <Project>https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior</Project>
   <Overview>The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the Archive Team archiving efforts. It will download sites and upload them to our archive&#x2014;and it&#x2019;s really easy to do!&#xD;
 &#xD;
 Maintained by: JakeShirley</Overview>
   <Category>Backup: Cloud: Downloaders:</Category>
   <WebUI>http://[IP]:[PORT:8001]/</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/pairofcrocs/unraid-templates/main/ArchiveTeam-Warrior.xml</TemplateURL>
-  <Icon>https://i.imgur.com/DPa1gLb.jpg</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/JakeShirley/unraid-templates/main/archiveteam-warrior.xml</TemplateURL>
+  <Icon>https://github.com/JakeShirley/unraid-templates/blob/main/assets/archiveteam-warrior.png?raw=true</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
