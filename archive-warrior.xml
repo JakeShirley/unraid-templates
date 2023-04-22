@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>ArchiveTeam-Warrior</Name>
+  <Repository>atdr.meo.ws/archiveteam/warrior-dockerfile:latest</Repository>
+  <Registry>https://hub.docker.com/r/archiveteam/warrior-dockerfile/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/117372-support-crocs-archiveteam-warrior/</Support>
+  <Project>https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior</Project>
+  <Overview>The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the Archive Team archiving efforts. It will download sites and upload them to our archive&#x2014;and it&#x2019;s really easy to do!&#xD;
+&#xD;
+Maintained by: JakeShirley</Overview>
+  <Category>Backup: Cloud: Downloaders:</Category>
+  <WebUI>http://[IP]:[PORT:8001]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/pairofcrocs/unraid-templates/main/ArchiveTeam-Warrior.xml</TemplateURL>
+  <Icon>https://i.imgur.com/DPa1gLb.jpg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Port" Target="8001" Default="8001" Mode="tcp" Description="Web UI port" Type="Port" Display="always" Required="false" Mask="false">8001</Config>
+  <Config Name="Appdata" Target="/var/run/docker.sock" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/var/run/docker.sock</Config>
+  <Config Name="Project" Target="SELECTED_PROJECT" Default="auto" Mode="" Description="'auto' to use the ArchiveTeam's choice, otherwise the project ID you want to use.&#13;&#10;&#13;&#10;You might be able to find project IDs here:&#13;&#10;&#13;&#10;http://tracker.archiveteam.org/" Type="Variable" Display="always" Required="false" Mask="false">auto</Config>
+  <Config Name="Display Name" Target="DOWNLOADER" Default="unraid-warrior" Mode="" Description="Name that will be displayed in ArchiveTeam project leaderboards" Type="Variable" Display="always" Required="false" Mask="false">darknavi</Config>
+  <Config Name="Concurrent Jobs" Target="CONCURRENT_ITEMS" Default="2" Mode="" Description="How many concurrent job tasks can run at a time.&#13;&#10;Max: 6" Type="Variable" Display="always" Required="false" Mask="false">6</Config>
+</Container>
