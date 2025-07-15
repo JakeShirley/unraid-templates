@@ -15,7 +15,6 @@ Template app maintained by: JakeShirley</Overview>
   <Beta>False</Beta>
   <Category>Network:Messenger</Category>
   <Date>2025-07-13</Date>
-  <WebUI>http://[IP]:[PORT:8001]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/JakeShirley/unraid-templates/main/llmchord.xml</TemplateURL>
   <Icon>https://github.com/JakeShirley/unraid-templates/blob/main/assets/llmchord.png?raw=true</Icon>
   <ExtraParams/>
