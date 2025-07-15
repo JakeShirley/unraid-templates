@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>llmchord</Name>
+  <Name>llmcord</Name>
   <Repository>ghcr.io/jakeshirley/llmcord:main</Repository>
   <Registry>https://ghcr.io/jakeshirley/llmcord</Registry>
   <Network>bridge</Network>
@@ -15,13 +15,13 @@ Template app maintained by: JakeShirley</Overview>
   <Beta>False</Beta>
   <Category>Network:Messenger</Category>
   <Date>2025-07-13</Date>
-  <TemplateURL>https://raw.githubusercontent.com/JakeShirley/unraid-templates/main/llmchord.xml</TemplateURL>
-  <Icon>https://github.com/JakeShirley/unraid-templates/blob/main/assets/llmchord.png?raw=true</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/JakeShirley/unraid-templates/main/llmcord.xml</TemplateURL>
+  <Icon>https://github.com/JakeShirley/unraid-templates/blob/main/assets/llmcord.png?raw=true</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="Config Folder" Target="/config" Default="/mnt/user/appdata/llmchord" Mode="r" Description="" Type="Path" Display="always" Required="true" Mask="false">/config</Config>
+  <Config Name="Config Folder" Target="/config" Default="/mnt/user/appdata/llmcord" Mode="r" Description="" Type="Path" Display="always" Required="true" Mask="false">/config</Config>
 </Container>
