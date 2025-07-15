@@ -11,6 +11,8 @@
   <Project>https://github.com/JakeShirley/llmcord</Project>
   <Overview>llmcord transforms Discord into a collaborative LLM frontend. It works with practically any LLM, remote or locally hosted.
 &#xD;
+For configuration instructions, please refer to the project's GitHub page: https://github.com/JakeShirley/llmcord
+&#xD;
 Template app maintained by: JakeShirley</Overview>
   <Beta>False</Beta>
   <Category>Network:Messenger</Category>
